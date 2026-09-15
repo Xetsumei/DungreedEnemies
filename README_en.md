@@ -1,8 +1,12 @@
-# DungreedEnemies 1.1.0
+﻿# DungreedEnemies 1.1.1
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 An AddOn that brings 90 normal Dungreed monsters and 8 boss families into Sephiria’s top-down combat. Normal enemies appear naturally from the candidates for each floor. Devana remains excluded from natural spawns.
+
+## 1.1.1 — 2026-09-15
+
+- Release update history is available in the `patchlog` files.
 
 ## Features
 

@@ -1,8 +1,12 @@
-# DungreedEnemies 1.1.0
+﻿# DungreedEnemies 1.1.1
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 던그리드의 일반 몬스터 90종과 보스 8종을 세피리아 탑뷰 전투로 이식하는 AddOn입니다. 일반 몬스터는 층별 후보에서 자연 출현합니다. 보스 8종 중 데바나는 자연 출현 후보에서 제외되어 있습니다.
+
+## 1.1.1 — 2026-09-15
+
+- 배포본의 업데이트 기록은 `patchlog` 파일에서 확인할 수 있습니다.
 
 ## 주요 기능
 

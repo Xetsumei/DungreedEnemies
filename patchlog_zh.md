@@ -1,4 +1,8 @@
-# DungreedEnemies — 更新记录
+﻿# DungreedEnemies — 更新记录
+
+## 1.1.1 — 2026-09-15
+
+- 发布版本的更新记录可在 `patchlog` 文件中查看。
 
 ## 1.1.0 — 2026-09-15
 
