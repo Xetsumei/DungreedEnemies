@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.3",
-    "zip":  "https://github.com/Xetsumei/DungreedEnemies/releases/download/1.1.3/DungreedEnemies.zip",
-    "sha256":  "a062aa914c80efc1b9f41caad1753a8bcfb8152889259080f3e36e41c2c6d3ec",
+    "version":  "1.1.4",
+    "zip":  "https://github.com/Xetsumei/DungreedEnemies/releases/download/1.1.4/DungreedEnemies.zip",
+    "sha256":  "4726a66c241aff20d148bc69bf6808e432260ff66f51e9d9b554b921f01274cd",
     "dllEntry":  "DungreedEnemies.dll",
     "libsVersion":  1,
     "notes":  ""

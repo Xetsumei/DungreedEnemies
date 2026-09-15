@@ -1,5 +1,12 @@
 ﻿# DungreedEnemies — Update history
 
+## 1.1.4 — 2026-09-16
+
+- README and patch notes are available in the GitHub repository and are not included in release ZIPs.
+
+- Updated the distribution files.
+
+
 ## 1.1.3 — 2026-09-16
 
 - Updated the distribution files.

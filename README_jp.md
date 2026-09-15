@@ -1,5 +1,8 @@
 ﻿# DungreedEnemies 1.1.1
 
+- READMEと更新履歴はGitHubリポジトリで確認できます。ReleaseのZIPには含まれません。
+
+
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 ダングリードの通常モンスター90種類とボス8種類をセフィリアの見下ろし型戦闘に移植するAddOnです。通常モンスターは階層別の候補から自然出現します。デヴァナは自然出現の候補から除外されています。

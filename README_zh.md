@@ -1,5 +1,8 @@
 ﻿# DungreedEnemies 1.1.1
 
+- README和更新记录可在GitHub仓库查看，不包含在Release ZIP中。
+
+
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 将Dungreed的90种普通怪物与8类BOSS移植到塞菲莉亚俯视战斗中的AddOn。普通怪物会从各层候选中自然出现。德瓦娜仍不在自然出现候选中。
