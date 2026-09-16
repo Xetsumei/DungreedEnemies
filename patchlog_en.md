@@ -2,7 +2,8 @@
 
 ## 1.1.6 — 2026-09-16
 
-- Updated the distribution files.
+- Added monsters no longer fight Sephiria's own monsters. They now appear on the same side as the monsters that already belong to each room.
+- Fixed the lizardman shaman renewing its invincibility support without a break when another mod raises attack or pattern speed, which could leave a room impossible to clear.
 
 
 ## 1.1.5 — 2026-09-16
