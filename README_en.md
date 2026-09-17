@@ -1,26 +1,32 @@
-﻿# DungreedEnemies 1.1.1
+# DungreedEnemies 1.2.6
 
-- README and patch notes are available in the GitHub repository and are not included in release ZIPs.
-
+[Download the latest release ZIP](https://github.com/Xetsumei/DungreedEnemies/releases/latest)
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
-An AddOn that brings 90 normal Dungreed monsters and 8 boss families into Sephiria’s top-down combat. Normal enemies appear naturally from the candidates for each floor. Devana remains excluded from natural spawns.
-
-## 1.1.1 — 2026-09-15
-
-- Release update history is available in the `patchlog` files.
+An AddOn that brings 90 normal Dungreed enemies and its bosses into Sephiria’s top-down combat. Six mini-bosses now also appear naturally on their assigned floors.
 
 ## Features
 
 - Each normal spawn slot has a 50:50 choice between a vanilla enemy and a Dungreed enemy for that floor. This does not guarantee an exact half in each room.
-- There is no separate settings panel. With EM installed, you can ban these enemies from its lists. EM, QoL, and ModMaker are optional.
-- All 107 normal enemy, boss, and supporting entity names follow the game language: Korean, English, Japanese, or Simplified Chinese.
-- F8 testing tools are disabled.
+- Mini-bosses share equal selection chances with the floor’s vanilla mini-boss encounter and use its stats and rewards. Floors 1, 2, 3 and 5 have a 1/2 chance each for vanilla or DE; floor 4 has a 1/3 chance each for vanilla, Raiona or Livna. These are the defaults before EM bans or randomization.
+
+| Floor | Added mini-boss |
+| --- | --- |
+| 1 | Asterios, Prison King's General |
+| 2 | Squiata, Yielding Soldier |
+| 3 | Impulsive Jumper, Enhanced Robot |
+| 4 | Raiona, Coloso Boca · Livna, Witch Sword |
+| 5 | Naglfar, Loyal Vassal of the Ark |
+
+- Hard mode’s **Blood Festival** heals each DE enemy at most **once every 2 seconds**. The first eligible hit heals immediately; rapid hits and hits on multiple players share that attacker's cooldown. Native healing amounts and boss/multiplayer scaling are retained. Vanilla enemies and other healing effects are unaffected.
+- With EM installed, you can ban normal enemies and mini-bosses from its lists. EM, QoL and ModMaker are optional.
+- Names follow the game language: Korean, English, Japanese or Simplified Chinese.
+- Slime Maker, Arsha, Ericha, Erta Alle and Devana do not yet appear naturally.
 
 ## Installation
 
-Extract the ZIP into `Sephiria/AddOns/DungreedEnemies`. Keep `metadata.json`, the DLL, and `Libs` together. Keep `DungreedEnemies.pak` alongside them.
+Close the game, create `Sephiria/AddOns/DungreedEnemies`, and extract the ZIP contents into it. `metadata.json`, `DungreedEnemies.dll`, `DungreedEnemies.pak` and `Libs` must sit directly inside that folder. For a manual update, overwrite the files in the same location.
 
 ## Automatic updates
 

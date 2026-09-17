@@ -1,4 +1,12 @@
-﻿# DungreedEnemies — Update history
+# DungreedEnemies — Update history
+
+## 1.2.6 — 2026-09-17
+
+- Added six mini-bosses—Asterios, Naglfar, Squiata, Raiona, Impulsive Jumper and Livna—to their floors' natural encounter pools alongside vanilla mini-bosses. They use the floor's native mini-boss stats and rewards and integrate with EM's mini-boss bans and randomizer.
+- Adapted mini-boss inertia, dashes, attack chains, teleports and summons to Sephiria's combat.
+- Fixed invisible ice/fire projectiles, reflected shots failing to hit, and the Jumper's repeated jump poses, separated parts and rotated laser. Improved attack sounds, effects and damage timing.
+- Boss circular warnings now match their actual damage areas. Refined Livna's teleport slash and the Jumper's overheat blast radius.
+- Blood Festival now heals each DE enemy at most once every 2 seconds. The first eligible hit heals immediately; rapid hits and hits on multiple players share the cooldown. Healing amounts, boss/multiplayer scaling, vanilla enemies and other healing effects are unchanged.
 
 ## 1.1.6 — 2026-09-16
 

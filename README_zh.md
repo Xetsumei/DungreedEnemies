@@ -1,26 +1,32 @@
-﻿# DungreedEnemies 1.1.1
+# DungreedEnemies 1.2.6
 
-- README和更新记录可在GitHub仓库查看，不包含在Release ZIP中。
-
+[下载最新版本ZIP](https://github.com/Xetsumei/DungreedEnemies/releases/latest)
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
-将Dungreed的90种普通怪物与8类BOSS移植到塞菲莉亚俯视战斗中的AddOn。普通怪物会从各层候选中自然出现。德瓦娜仍不在自然出现候选中。
-
-## 1.1.1 — 2026-09-15
-
-- 发布版本的更新记录可在 `patchlog` 文件中查看。
+将Dungreed的90种普通怪物与BOSS移植到塞菲莉亚俯视战斗中的AddOn。新增的6种小BOSS现在也会在对应楼层自然出现。
 
 ## 主要功能
 
 - 每个普通生成位置以50:50概率选择原版敌人或本层Dungreed敌人，并不保证每个房间恰好各占一半。
-- 没有独立设置窗口。安装EM后可在其列表中禁用这些敌人。EM、QoL、ModMaker均非必需。
-- 普通怪物、BOSS及附属实体共107个名称支持韩语、英语、日语、简体中文，并跟随游戏语言。
-- F8测试功能已关闭。
+- 小BOSS与本层原版小BOSS等概率入选，并使用原版小BOSS的属性和奖励。第1、2、3、5层原版/DE各占1/2；第4层原版/莱欧纳/丽芙娜各占1/3。以下为应用EM禁用设置或随机化之前的默认配置。
+
+| 楼层 | 新增小BOSS |
+| --- | --- |
+| 1 | 监狱王将军“阿斯特留斯” |
+| 2 | 屈服战士“斯奎亚塔” |
+| 3 | 强化机器人“冲动跳跃者” |
+| 4 | 克鲁索博卡“莱欧纳” · 魔女之剑“丽芙娜” |
+| 5 | 方舟使者“纳格法” |
+
+- 困难模式的**Blood Festival（敌人命中时回血）**对DE敌人的回血改为**每个个体每2秒最多触发1次**。首次有效命中立即回血，连续弹幕或命中多位玩家共享攻击者的冷却时间。回血量及BOSS、多人模式修正沿用原版计算，不影响原版敌人和其他回血效果。
+- 安装EM后可在其列表中禁用普通怪物和小BOSS。EM、QoL和ModMaker均非必需。
+- 名称支持韩语、英语、日语和简体中文，并跟随游戏语言。
+- 史莱姆制造机、阿尔夏、艾瑞查、埃塔阿雷和德瓦娜尚不会自然出现。
 
 ## 安装
 
-将ZIP解压至`Sephiria/AddOns/DungreedEnemies`，将`metadata.json`、DLL与`Libs`保存在同一文件夹。 同时保留`DungreedEnemies.pak`。
+关闭游戏，创建`Sephiria/AddOns/DungreedEnemies`文件夹，将ZIP内容解压到其中。该文件夹下应直接包含`metadata.json`、`DungreedEnemies.dll`、`DungreedEnemies.pak`和`Libs`。手动更新时覆盖同一位置的文件即可。
 
 ## 自动更新
 
