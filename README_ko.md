@@ -1,4 +1,4 @@
-# DungreedEnemies 1.2.6
+# DungreedEnemies 1.2.7
 
 [최신 버전 ZIP 다운로드](https://github.com/Xetsumei/DungreedEnemies/releases/latest)
 

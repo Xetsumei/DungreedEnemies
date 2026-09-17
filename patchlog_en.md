@@ -1,5 +1,9 @@
 # DungreedEnemies — Update history
 
+## 1.2.7 — 2026-09-17
+
+- Reduced the name text size on DE mini-boss health bars and enabled automatic shrinking to fit long names on one line. Vanilla mini-boss names and health numbers are unchanged.
+
 ## 1.2.6 — 2026-09-17
 
 - Added six mini-bosses—Asterios, Naglfar, Squiata, Raiona, Impulsive Jumper and Livna—to their floors' natural encounter pools alongside vanilla mini-bosses. They use the floor's native mini-boss stats and rewards and integrate with EM's mini-boss bans and randomizer.
