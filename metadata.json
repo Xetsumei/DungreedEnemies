@@ -1,6 +1,6 @@
 {
   "modName": "DungreedEnemies",
-  "modVersion": "1.2.7",
+  "modVersion": "1.2.9",
   "modAuthor": "Xetsumei",
   "dllFile": "DungreedEnemies.dll",
   "entryClass": "DungreedEnemies.Mod"

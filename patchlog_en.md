@@ -1,5 +1,11 @@
 # DungreedEnemies — Update history
 
+## 1.2.9 — 2026-09-18
+
+- The LizardMan Centurion's roar no longer lands instantly. A circular warning covering its real damage radius appears first, and the roar follows 1.5 seconds later. Attack speed and other mods' pattern speed cannot shorten that warning.
+- The gap between roars is now 1.5 times longer. Its melee attack keeps its old pace.
+- The roar's damage, knockback, stagger and screen effect are unchanged.
+
 ## 1.2.7 — 2026-09-17
 
 - Reduced the name text size on DE mini-boss health bars and enabled automatic shrinking to fit long names on one line. Vanilla mini-boss names and health numbers are unchanged.
